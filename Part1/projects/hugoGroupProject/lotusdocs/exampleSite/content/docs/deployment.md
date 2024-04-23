@@ -11,55 +11,55 @@ publishdate: "2023-05-03T22:37:22+01:00"
 tags: ["Beginners"]
 ---
 
-# Deploy de um site Hugo com Netlify
+# Deploying a Hugo Website with Netlify
 
-Este guia irá ajudá-lo a publicar o seu site Hugo usando o Netlify, uma plataforma para hospedar sites estáticos.
+This guide will help you deploy your Hugo website using Netlify, a platform for hosting static websites.
 
-## Antes de começar
+## Before You Start
 
-Certifique-se de que você tem:
+Make sure you have:
 
-- Um projeto de site Hugo pronto.
-- Uma conta registrada no Netlify.
-- O Hugo instalado em seu computador.
+- A Hugo website project ready.
+- Signed up for a Netlify account.
+- Installed Hugo on your computer.
 
-## Passos
+## Steps
 
-### 1. Registrar-se no Netlify
+### Sign Up for Netlify
 
-Se ainda não o fez, crie uma conta no Netlify. É rápido e gratuito.
+If you haven't already, create an account on Netlify. It's quick and free.
 
-### 2. Adicionar seu site ao Netlify
+### Add Your Site to Netlify
 
-Acesse a página "Sites" do Netlify e clique em "Novo site a partir do Git".
+Go to the Netlify sites page and click "New site from Git."
 
-Pode aceder à documentação do [Netlify Docs](https://docs.netlify.com/get-started/).
+You can check Netlify documentation [Hugo CLI](https://docs.netlify.com/get-started/)
 
-### 3. Conectar seu repositório
+### Connect Your Repository
 
-Escolha o seu provedor Git (como o GitHub). O Netlify irá guiá-lo através da conexão do seu repositório.
+Choose your Git provider (like GitHub). Netlify will guide you through connecting your repository.
 
-### 4. Configurar as configurações de construção
+### Set Build Settings
 
-O Netlify detecta automaticamente o seu site Hugo. Verifique as configurações de construção e ajuste-as, se necessário.
+Netlify will automatically detect your Hugo website. Check the build settings, and adjust if needed.
 
-### 5. Publicar seu site
+### Deploy Your Site
 
-Opção 1: Clique em "Publicar site". O Netlify começará a criar o seu site Hugo.
-Opção 2: Acesse a pasta que contém o seu site Hugo. Instale o Netlify com:
+Option 1 : Click "Deploy site." Netlify will start building your Hugo website.
+Option 2 : Access the folder where your hugo website is stored. Install netlify using: 
 ```shell
 npm install -g netlify-cli
 ```
-Após a instalação, digite: 
+After the installation is finished, type:  
 ```shell 
 netlify deploy prod
 ```
-e siga as instruções.
+and follow the steps.
 
-### 6. Acesse seu site
+### Access Your Site
 
-Após a conclusão da construção, o Netlify fornecerá uma URL para visualizar o seu site.
+After the build is complete, Netlify will give you a URL to view your deployed site.
 
-## Conclusão
+## Conclusion
 
-Você deu Deploy com sucesso ao seu site Hugo com o Netlify! Explore os recursos adicionais do Netlify para aprimorar ainda mais seu site.
+You've successfully deployed your Hugo website with Netlify! Explore Netlify's additional features to enhance your site further.

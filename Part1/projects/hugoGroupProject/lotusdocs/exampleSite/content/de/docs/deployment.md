@@ -25,25 +25,25 @@ Stellen Sie sicher, dass Sie Folgendes haben:
 
 ## Schritte
 
-### 1. Registrieren Sie sich bei Netlify
+### Registrieren Sie sich bei Netlify
 
 Falls noch nicht geschehen, erstellen Sie ein Konto bei Netlify. Das geht schnell und ist kostenlos.
 
-### 2. Fügen Sie Ihre Website zu Netlify hinzu
+### Fügen Sie Ihre Website zu Netlify hinzu
 
 Gehen Sie zur Seite "Sites" von Netlify und klicken Sie auf "Neue Site von Git".
 
 Sie können die Netlify-Dokumentation überprüfen [Netlify Docs](https://docs.netlify.com/get-started/).
 
-### 3. Verbinden Sie Ihr Repository
+### Verbinden Sie Ihr Repository
 
 Wählen Sie Ihren Git-Anbieter (wie GitHub) aus. Netlify wird Sie durch die Verbindung Ihres Repositorys führen.
 
-### 4. Konfigurieren Sie die Build-Einstellungen
+### Konfigurieren Sie die Build-Einstellungen
 
 Netlify erkennt automatisch Ihre Hugo-Website. Überprüfen Sie die Build-Einstellungen und passen Sie sie bei Bedarf an.
 
-### 5. Veröffentlichen Sie Ihre Website
+### Veröffentlichen Sie Ihre Website
 
 Option 1: Klicken Sie auf "Website veröffentlichen". Netlify beginnt mit dem Erstellen Ihrer Hugo-Website.
 Option 2: Navigieren Sie zum Ordner, in dem sich Ihre Hugo-Website befindet. Installieren Sie Netlify mit:
@@ -56,7 +56,7 @@ netlify deploy prod
 ```
 und folgen Sie den Anweisungen.
 
-### 6. Greifen Sie auf Ihre Website zu
+### Greifen Sie auf Ihre Website zu
 
 Nach Abschluss des Builds gibt Ihnen Netlify eine URL, unter der Sie Ihre veröffentlichte Website anzeigen können.
 
