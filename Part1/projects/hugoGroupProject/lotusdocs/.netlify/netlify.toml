@@ -1,0 +1,30 @@
+plugins = []
+headers = []
+redirects = []
+
+[functions]
+
+[functions."*"]
+
+[build]
+publish = "C:\\Users\\Joao Martins\\Documentos\\TECAA\\git\\TECAA\\projects\\hugoGroupProject\\lotusdocs\\exampleSite\\public"
+publishOrigin = "config"
+base = "C:\\Users\\Joao Martins\\Documentos\\TECAA\\git\\TECAA\\projects\\hugoGroupProject\\lotusdocs"
+command = "cd exampleSite && hugo --gc --minify --themesDir ../.. -b ${DEPLOY_PRIME_URL}"
+ignore = "false"
+commandOrigin = "config"
+
+[build.environment]
+HUGO_VERSION = "0.120.4"
+
+[build.processing]
+
+[build.processing.css]
+
+[build.processing.html]
+
+[build.processing.images]
+
+[build.processing.js]
+
+[build.services]

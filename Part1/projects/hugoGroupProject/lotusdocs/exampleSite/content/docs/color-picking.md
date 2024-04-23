@@ -2,11 +2,11 @@
 weight: 100
 date: "2023-05-03T22:37:22+01:00"
 draft: false
-author: "Colin Wilson"
+author: "Ricardo Mascarenhas"
 title: "Color Picking"
 icon: "rocket_launch"
 toc: true
-description: "A quickstart guide to creating new content in Lotus Docs"
+description: "A guide to create color picking functionality in Lotus Docs"
 publishdate: "2023-05-03T22:37:22+01:00"
 tags: ["Beginners"]
 ---
@@ -88,3 +88,5 @@ Similarly, changing the font color picker's value updates the text color across 
 ## Conclusion
 
 With these enhancements, our site now offers a more interactive and personalized user experience. Visitors can customize the look of the site to their preference, making their browsing experience more enjoyable.
+
+[How was this page implemented](/docs/color-picking-implementation/)

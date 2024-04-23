@@ -3,6 +3,54 @@ weight: 100
 date: "2023-05-03T22:37:22+01:00"
 draft: false
 author: "Pedro Martins"
+title: "About Page Implementation"
+icon: "rocket_launch"
+toc: true
+description: "A guide to implement the about page"
+publishdate: "2023-05-03T22:37:22+01:00"
+tags: ["Beginners"]
+---
+
+
+## Introduction
+   In this page it is possible to follow a step by step guide that aims to educate the reader on how to make the color picker page in this website.
+
+## Set up
+   1. Install Hugo and Go
+       
+       If you haven’t installed Hugo and Go, you can go see the installation guidelines provided in [Hugo Installation](https://gohugo.io/installation/). If you do already have them installed you can skip this step and go directly to the next one. 
+       
+       Do not forget the prerequisites. You should need the following command or similar: `choco install hugo-extended` (windows) or `brew install hugo` (mac), for instance. 
+
+       Check the version using: `hugo version`. 
+
+       Check how to install Go ([Go Installation](https://go.dev/dl/)) and proceed with the installation, check that everything is fine at the end: `go version`.
+
+   2. Download Lotus Docs theme
+       
+       Use the Lotus Docs example project as a template. Start by cloning the repository from [Lotus Docs GitHub Repository](https://github.com/colinwilson/lotusdocs) and changing to the exampleSite folder. There, execute the following command: `hugo server`. You should now see something like Figure 1.
+
+  ```shell
+                   | EN  | FR  | DE
+-------------------+-----+-----+------
+  Pages            |  19 |  14 |  14
+  Paginator pages  |   0 |   0 |   0
+  Non-page files   |   1 |   1 |   1
+  Static files     | 367 | 367 | 367
+  Processed images |  18 |   0 |   0
+  Aliases          |   1 |   0 |   0
+  Cleaned          |   0 |   0 |   0
+
+```
+  Your website should be available at http://localhost:1313/
+
+## Implementing the About Page/Your MD Code
+
+```shell
+weight: 100
+date: "2023-05-03T22:37:22+01:00"
+draft: false
+author: "Pedro Martins"
 title: "About"
 icon: "rocket_launch"
 toc: true
@@ -74,3 +122,5 @@ We often update our accessibility features and methods to keep up with laws, tec
 ## Keeping Performance in Check
 
 We don’t just build; we make sure our site works well. We keep checking and improving it to meet the highest performance standards, making sure it works fast and smoothly for every user.
+
+```

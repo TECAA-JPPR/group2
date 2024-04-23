@@ -11270,17 +11270,6 @@ span.menu-icon {
   -ms-user-select: none;
   user-select: none; }
 
-
-  .color-picker-container {
-    display: flex;
-    align-items: center;
-    border-radius: 10rem;
-  }
-
-  .colorPicker{
-    border-radius: 5rem;
-  }
-
 /*# sourceMappingURL=image-compare-viewer.min.css.map*/
 
 /*# sourceMappingURL=style.css.map */

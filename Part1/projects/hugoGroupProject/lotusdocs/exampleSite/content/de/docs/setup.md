@@ -6,7 +6,7 @@ author: "Pedro Simoes"
 title: "Setup"
 icon: "rocket_launch"
 toc: true
-description: "A quickstart guide to creating, setting up and customizing a new Lotus Website"
+description: "A quickstart guide to creating new content in Lotus Docs"
 publishdate: "2023-05-03T22:37:22+01:00"
 tags: ["Beginners"]
 ---
@@ -295,23 +295,3 @@ content/
 This is reflected in the sidebar menu with `parent-directory` functioning as a dropdown menu containing a link to the **Doc Three** post:
 
 ![sidebar parent menu example](https://res.cloudinary.com/lotuslabs/image/upload/v1684802032/Lotus%20Docs/images/sidebar_menu_example_02_jsecye.png)
-
-
-## Customizing your Site
-
-Now that you've created some menu items, you can start by adding more content to your pages. You can start by going to your `doc-one.md` file where you can add content like the code bellow that creates content used to create this page:
-
-```shell
-## Create a New Lotus Docs Site
-
-With Hugo installed, create a new Hugo project using the `hugo new` command:
-
-```shell
-hugo new site my-docs-site && cd my-docs-site
-```
-
-This code needs to be closed by ` ``` ` in order to work as intended. This cannot be applied to the snippet as there is no way to implement the characters without removing their effect.
-
-Now, your content on the `doc-one.md` page should look like this.
-
-![New content example](https://res.cloudinary.com/dmvlllqlm/image/upload/v1711133637/example_website_qcie2i.png)
