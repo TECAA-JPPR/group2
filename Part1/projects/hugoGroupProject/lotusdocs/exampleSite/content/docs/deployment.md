@@ -61,5 +61,3 @@ and follow the steps.
 After the build is complete, Netlify will give you a URL to view your deployed site.
 
 ## Conclusion
-
-You've successfully deployed your Hugo website with Netlify! Explore Netlify's additional features to enhance your site further.
